@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Ensure the body covers the entire viewport height */
+}
+
+.search-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the search bar horizontally */
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.search-engine {
+  width: 300%;
+  max-width: 400px; /* Limit the width to 400px */
+  height: 45px;
+  border: 1px solid #000000;
+  border-radius: 8px; /* Add rounded corners */
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: white !important;
+  color: #555555;
+}
+
+.city-search {
+  margin-left: 10px; /* Add some space between the search bar and city search */
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.weather-container {
+  width: 80%; /* Set the width to 80% of the viewport width */
+  max-width: 800px; /* Limit the maximum width to 800px */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 40px; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Example background color */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  text-align: center; /* Center the content horizontally */
+}
+
+.loading {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.weather-details {
+  text-align: center;
+}
+
+.city-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.city-name span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.extra-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info {
+  flex: 1;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.value {
+  font-size: 16px;
+}
